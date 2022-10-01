@@ -371,6 +371,28 @@ form .btn2{
     color: #1e90ff;
 }
 
+.copyright a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.copyright a:hover{
+    color: #1e90ff; 
+}
+
+.copyright .btn3 i{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 2px;
+    transition: 0.5s;
+}
+
+.copyright .btn3 i:hover{
+    color: #1e90ff; 
+}
+
+
 /* -----------------css for small screens---------------- */
 
 nav .fa-solid, .fas{
