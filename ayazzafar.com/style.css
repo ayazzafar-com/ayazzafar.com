@@ -14,6 +14,23 @@ body{
     color: #fff;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1e90ff;
+    border-radius: 10px;
+  }
+
 #header{
     width: 100%;
     height: 100vh;
@@ -310,11 +327,18 @@ nav ul li a:hover::after{
     color: #1e90ff;
     margin-right: 15px;
     font-size: 25px;
+    text-decoration: none;
 }
 
 .contact-left a p{
     text-decoration: none;
     color: #fff;
+    transition: transform 0.5s;
+}
+
+.contact-left a p:hover{
+    color: #1e90ff;
+    transform: translateY(-5px);
 }
 
 .social-icons{
