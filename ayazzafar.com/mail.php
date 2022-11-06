@@ -4,11 +4,13 @@ $name = $_POST['name'];
 $email= $_POST['email'];
 $message= $_POST['message'];
 $to = "ayaziqbalzafar@gmail.com";
-$subject = "Mail From www.ayazzafar.com";
+$subject = "Mail From website";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
-$headers = "From: noreply@ayazzafar.com" . "\r\n" .
-"CC: ";
+$headers = "From: noreply@yoursite.com" . "\r\n" .
+"CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
+//redirect
+header("index.html");
 ?>
