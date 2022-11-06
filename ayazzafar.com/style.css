@@ -147,6 +147,12 @@ nav ul li a:hover::after{
     font-weight: 500;
     cursor: pointer;
     position: relative;
+    transition: 0.5s;
+}
+
+.tab-links:hover{
+    color: #38b6ff;
+    transition: 0.5s;
 }
 
 .tab-links::after{
@@ -383,6 +389,11 @@ form .btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+}
+
+.btn.btn2.btn3:hover{
+    background: #61b752;
+    border-color: #61b752;
 }
 
 .copyright{
