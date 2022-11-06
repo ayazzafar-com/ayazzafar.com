@@ -31,6 +31,24 @@ body{
     border-radius: 15px;
   }
 
+  .banner{
+    background: #38b6ff;
+  }
+
+  .banner-content {
+    padding: 4px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .banner-text{
+    flex-grow: 1;
+    line-height: 1.4;
+    font-family: 'poppins', sans-serif;
+  }
+
 #header{
     width: 100%;
     height: 100vh;
