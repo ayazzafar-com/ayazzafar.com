@@ -542,10 +542,17 @@ nav .fa-solid, .fas{
     .copyright{
         font-size: 13px;
     }
+    .banner-content {
+        padding: 1px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+      }
 }
 
 #msg{
     color: #61b752;
     margin-top: -35px;
     display: block;
+    font-weight: 600;
 }
