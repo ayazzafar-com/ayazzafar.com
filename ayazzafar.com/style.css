@@ -581,6 +581,10 @@ nav .fa-solid, .fas{
         margin: 10px auto;
         max-width: 330px;
       }
+      .card .check img {
+        width: 50px;
+        margin: 10px 5px;
+      }
 }
 
 #msg{
