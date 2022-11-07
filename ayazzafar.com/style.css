@@ -571,12 +571,12 @@ nav .fa-solid, .fas{
         backdrop-filter: blur(5px);
       }
       .card h1 {
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 600;
         margin-top: 20px;
       }
       .card h4 {
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 400;
         margin: 10px auto;
         max-width: 330px;
