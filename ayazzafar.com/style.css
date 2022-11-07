@@ -583,7 +583,8 @@ nav .fa-solid, .fas{
       }
       .card .check img {
         width: 45px;
-        margin: 10px 5px;
+        margin: 5px 5px;
+        padding: 5px 5px;
       }
 }
 
@@ -639,7 +640,8 @@ nav .fa-solid, .fas{
   
   .card .check img {
     width: 90px;
-    margin: 10px 5px;
+    margin: 5px 5px;
+    padding: 5px 5px;
   }
   
   .btn4 {
