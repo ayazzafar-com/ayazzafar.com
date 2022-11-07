@@ -587,6 +587,24 @@ nav .fa-solid, .fas{
       }
 }
 
+@media only screen and (max-width: 400px){
+    .card h1 {
+        font-size: 50px;
+        font-weight: 600;
+        margin-top: 20px;
+      }
+      .card h4 {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 10px auto;
+        max-width: 330px;
+      }
+      .card .check img {
+        width: 80px;
+        margin: 5px 5px;
+      }
+}
+
 #msg{
     color: #61b752;
     margin-top: -35px;
