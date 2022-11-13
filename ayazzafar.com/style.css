@@ -14,22 +14,23 @@ body{
     color: #fff;
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: #080808;
-    border-radius: 15px;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #38b6ff;
-    border-radius: 15px;
-  }
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+        background-color: #38b6ff;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: #262626;
+        border-radius: 15px;
+      }
+      
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #262626;
+        border-radius: 15px;
+      }
 
   .banner{
     background: #262626;
@@ -145,6 +146,23 @@ nav ul li a:hover::after{
     color: #38b6ff;
 }
 
+.btn.btn4 {
+    color: #fff;
+    border: #262626;
+    font-size: 20px;
+    transition: 0.5s;
+    padding: 10px 20px;
+    background-color: #000;
+}
+
+.btn.btn4:hover {
+    color: #fff;
+    border: #38b6ff;
+    background-color: #38b6ff;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
 /* ----------about---------- */
 
 #about{
@@ -192,7 +210,7 @@ nav ul li a:hover::after{
 .tab-links{
     margin-right: 50px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     position: relative;
     transition: transform 0.5s;
@@ -266,7 +284,7 @@ nav ul li a:hover::after{
 
 .skills-list div h2{
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 
@@ -382,7 +400,7 @@ nav ul li a:hover::after{
 
 .contact-left p{
     margin-top: 30px;
-    font-weight:200;
+    font-weight:600;
 }
 
 .contact-left p i{
@@ -430,6 +448,7 @@ form input, form textarea{
     color: #fff;
     font-size: 18px;
     border-radius: 6px;
+    font-weight: 600;
 }
 
 form .btn2{
@@ -585,6 +604,43 @@ nav .fa-solid, .fas{
         width: 45px;
         margin: 5px 5px;
       }
+      .btn.btn4 {
+        color: #fff;
+        border: #262626;
+        font-size: 18px;
+        transition: 0.5s;
+        padding: 10px 20px;
+        background-color: #262626;
+        display: block;
+        position: relative;
+        margin-left: 20px;
+        font-weight: 600;
+    }
+    
+    .btn.btn4:hover {
+        color: #38b6ff;
+        border: #38b6ff;
+        background-color: #262626;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+    /* width */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #38b6ff;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: #262626;
+    border-radius: 15px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 15px;
+  }
 }
 
 @media only screen and (max-width: 400px){
