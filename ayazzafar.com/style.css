@@ -49,6 +49,7 @@ body{
     line-height: 1.4;
     font-family: 'poppins', sans-serif;
     font-weight: 600;
+    font-size: 18px;
     text-align: center;
   }
 
@@ -113,6 +114,7 @@ nav ul li a{
     color: #fff;
     text-decoration: none;
     font-size: 20px;
+    font-weight: 600;
     position: relative;
 }
 
@@ -150,12 +152,33 @@ nav ul li a:hover::after{
     color: #fff;
     border: #262626;
     font-size: 20px;
+    font-weight: 600;
     transition: 0.5s;
     padding: 10px 20px;
     background-color: #000;
 }
 
 .btn.btn4:hover {
+    color: #fff;
+    border: #38b6ff;
+    background-color: #38b6ff;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.btn.btn5 {
+    color: #fff;
+    border: #262626;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+    padding: 10px 20px;
+    background-color: #000;
+    bottom: 40px;
+    display: none;
+}
+
+.btn.btn5:hover {
     color: #fff;
     border: #38b6ff;
     background-color: #38b6ff;
@@ -624,6 +647,27 @@ nav .fa-solid, .fas{
         font-size: 18px;
         transition: 0.5s;
     }
+    .btn.btn5 {
+        color: #fff;
+        border: #262626;
+        font-size: 18px;
+        transition: 0.5s;
+        padding: 10px 40px;
+        background-color: #262626;
+        display: block;
+        position: relative;
+        margin-left: 20px;
+        font-weight: 600;
+        border-radius: 10px;
+    }
+    
+    .btn.btn5:hover {
+        color: #38b6ff;
+        border: #38b6ff;
+        background-color: #262626;
+        font-size: 18px;
+        transition: 0.5s;
+    }
     /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -641,6 +685,10 @@ nav .fa-solid, .fas{
     background: #262626;
     border-radius: 15px;
   }
+}
+
+@media only screen and (min-width: 600px){
+
 }
 
 @media only screen and (max-width: 400px){
