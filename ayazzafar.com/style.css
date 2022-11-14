@@ -16,19 +16,19 @@ body{
 
     /* width */
     ::-webkit-scrollbar {
-        width: 10px;
-        background-color: #38b6ff;
+        width: 12px;
+        background-color: #262626;
       }
       
       /* Track */
       ::-webkit-scrollbar-track {
-        box-shadow: #262626;
+        box-shadow: #38b6ff;
         border-radius: 15px;
       }
       
       /* Handle */
       ::-webkit-scrollbar-thumb {
-        background: #262626;
+        background: #38b6ff;
         border-radius: 15px;
       }
 
