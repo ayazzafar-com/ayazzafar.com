@@ -155,7 +155,7 @@ nav ul li a:hover::after{
     font-weight: 600;
     transition: 0.5s;
     padding: 10px 20px;
-    background-color: #000;
+    background-color: #262626;
 }
 
 .btn.btn4:hover {
@@ -173,7 +173,7 @@ nav ul li a:hover::after{
     font-weight: 600;
     transition: 0.5s;
     padding: 10px 20px;
-    background-color: #000;
+    background-color: #262626;
     bottom: 40px;
     display: none;
 }
@@ -490,7 +490,7 @@ form .btn2{
     text-align: center;
     padding: 25px 0;
     background: #262626;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 20px;
 }
 
@@ -582,7 +582,7 @@ nav .fa-solid, .fas{
         flex-basis: 100%;
     }
     .copyright{
-        font-size: 13px;
+        font-size: 12px;
     }
     .banner-content {
         padding: 2px;
@@ -684,10 +684,6 @@ nav .fa-solid, .fas{
     background: #262626;
     border-radius: 15px;
   }
-}
-
-@media only screen and (min-width: 600px){
-
 }
 
 @media only screen and (max-width: 400px){
