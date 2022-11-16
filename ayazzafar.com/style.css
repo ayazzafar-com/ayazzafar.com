@@ -239,6 +239,7 @@ nav ul li a:hover::after{
     border-radius: 15px;
     transition: transform 0.5s;
     text-decoration: none;
+    box-shadow: 0px 0px 50px 5px #38b6ff;
 }
 
 .about-col-1 img:hover{
@@ -754,7 +755,7 @@ nav .fa-solid, .fas{
 	border-radius:50px;
 	text-align:center;
   font-size:30px;
-  box-shadow: 1px 1px 15px 5px #25d366;
+  box-shadow: 1px 1px 25px 5px #25d366;
   z-index:100;
   transition: 0.5s;
 }
