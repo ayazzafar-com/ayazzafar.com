@@ -463,6 +463,7 @@ nav ul li a:hover::after{
     font-weight:600;
     color: #fff;
     transition: 0.5s;
+    text-decoration: none
 }
 
 .contact-left p:hover{
