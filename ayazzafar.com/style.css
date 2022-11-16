@@ -28,6 +28,7 @@ body{
   font-size:30px;
 	box-shadow: 2px 2px 3px #ababab;
   z-index:100;
+  text-decoration: none;
   transition: 0.5s;
 }
 
@@ -186,6 +187,7 @@ nav ul li a:hover::after{
     transition: 0.5s;
     padding: 10px 20px;
     background-color: #262626;
+    text-decoration: none;
 }
 
 .btn.btn4:hover {
@@ -206,6 +208,7 @@ nav ul li a:hover::after{
     background-color: #262626;
     bottom: 40px;
     display: none;
+    text-decoration: none;
 }
 
 .btn.btn5:hover {
@@ -236,7 +239,8 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width: 100%;
     border-radius: 15px;
-    transition: transform 0.5s
+    transition: transform 0.5s;
+    text-decoration: none;
 }
 
 .about-col-1 img:hover{
@@ -513,6 +517,7 @@ form .btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn.btn2.btn3:hover{
@@ -548,6 +553,7 @@ form .btn2{
     font-size: 18px;
     margin-left: 6px;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 .copyright .btn3 i:hover{
