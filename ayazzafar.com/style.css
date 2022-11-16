@@ -461,12 +461,25 @@ nav ul li a:hover::after{
 .contact-left p{
     margin-top: 30px;
     font-weight:600;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.contact-left p:hover{
+    margin-top: 30px;
+    font-weight:600;
+    color: #38b6ff;
+    transition: 0.5s;
 }
 
 .contact-left p i{
     color: #38b6ff;
     margin-right: 15px;
     font-size: 25px;
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
 
