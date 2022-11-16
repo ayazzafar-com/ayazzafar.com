@@ -20,21 +20,23 @@ body{
 	bottom:40px;
 	right:40px;
 	background-color:#25d366;
+    right: 20px;
+    bottom: 20px;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
   font-size:30px;
-	box-shadow: 2px 2px 3px #999;
+	box-shadow: 2px 2px 3px #262626;
   z-index:100;
   transition: 0.5s;
 }
 
 .float:hover{
-    width: 65px;
-    height: 65px;
-    bottom:45px;
-	right:45px;
-    font-size: 35px;
+    width: 61px;
+    height: 61px;
+    bottom:41px;
+	right:41px;
+    font-size: 31px;
     transition: 0.5s;
 }
 
