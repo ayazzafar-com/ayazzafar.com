@@ -725,6 +725,34 @@ nav .fa-solid, .fas{
     background: #262626;
     border-radius: 15px;
   }
+  .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:10px;
+	right:10px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #262626;
+  z-index:100;
+  transition: 0.5s;
+}
+
+.float:hover{
+    width: 61px;
+    height: 61px;
+    bottom:20px;
+	right:20px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.my-float{
+	margin-top:16px;
+}
 }
 
 @media only screen and (max-width: 400px){
