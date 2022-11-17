@@ -1,1 +1,1 @@
-ayazzafar.com
+www.ayazzafar.com
