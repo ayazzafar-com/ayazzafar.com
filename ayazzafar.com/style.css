@@ -878,9 +878,11 @@ nav .fa-solid, .fas{
   
   .preloader p{
     position: absolute;
+    display: flex;
+    align-items: center;
     top: 80%;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -48px;
     width: 120px;
     height: 90px; 
     text-align: center;
@@ -891,7 +893,8 @@ nav .fa-solid, .fas{
   }
   
   .loader {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     width: 40px;
     height: 40px;
     position: absolute;
