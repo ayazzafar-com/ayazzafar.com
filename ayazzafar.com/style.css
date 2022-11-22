@@ -772,6 +772,19 @@ nav .fa-solid, .fas{
 .my-float{
 	margin-top:16px;
 }
+.loader {
+    display: flex;
+    align-items: center;
+    margin-right: 48px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index:3;
+    border: 4px solid #38b6ff;
+    top: 50%;
+    left: 49%;
+    animation: loader 2s infinite ease;
+  }
 }
 
 @media only screen and (max-width: 400px){
@@ -882,7 +895,7 @@ nav .fa-solid, .fas{
     align-items: center;
     top: 80%;
     left: 50%;
-    margin-left: -48px;
+    margin-left: -50px;
     width: 120px;
     height: 90px; 
     text-align: center;
