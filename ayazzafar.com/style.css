@@ -729,23 +729,6 @@ nav .fa-solid, .fas{
         font-size: 18px;
         transition: 0.5s;
     }
-    /* width */
-::-webkit-scrollbar {
-    width: 10px;
-    background-color: #38b6ff;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: #262626;
-    border-radius: 15px;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #262626;
-    border-radius: 15px;
-  }
   .float{
 	position:fixed;
 	width:60px;
@@ -761,7 +744,6 @@ nav .fa-solid, .fas{
   z-index:100;
   transition: transform 0.5s;
 }
-
 .float:hover{
     width: 65px;
     height: 65px;
@@ -772,19 +754,6 @@ nav .fa-solid, .fas{
 .my-float{
 	margin-top:16px;
 }
-.loader {
-    display: flex;
-    align-items: center;
-    margin-right: 48px;
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    z-index:3;
-    border: 4px solid #38b6ff;
-    top: 50%;
-    left: 49%;
-    animation: loader 2s infinite ease;
-  }
 }
 
 @media only screen and (max-width: 400px){
@@ -889,27 +858,11 @@ nav .fa-solid, .fas{
     background:#080808;
   }
   
-  .preloader p{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    top: 80%;
-    left: 50%;
-    margin-left: -50px;
-    width: 120px;
-    height: 90px; 
-    text-align: center;
-    color: #FFF;
-    font-size: 25px;
-    font-weight: 600;
-    z-index: 3;
-  }
-  
   .loader {
     display: flex;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     position: absolute;
     z-index:3;
     border: 4px solid #38b6ff;
