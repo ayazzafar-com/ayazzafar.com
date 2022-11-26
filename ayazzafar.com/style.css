@@ -861,7 +861,7 @@ nav .fa-solid, .fas{
       right: 0;
       bottom: 0;
     z-index: 2;
-    background:#080808;
+    background:#000;
   }
   
   .loader {
