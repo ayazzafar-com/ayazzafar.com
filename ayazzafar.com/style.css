@@ -251,7 +251,7 @@ nav ul li a:hover::after{
 }
 
 .about-col-1 img:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
     transition: transform 0.5s;
 }
 
