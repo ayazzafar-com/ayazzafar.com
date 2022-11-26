@@ -14,6 +14,12 @@ body{
     color: #fff;
     overflow: visible;
 }
+::selection {
+  /* Change highlight background color to black */
+  background: #38b6ff;
+  /* Change highlight text color to red */
+  color: #fff;
+}
 .float{
     display: none;
 	position:fixed;
