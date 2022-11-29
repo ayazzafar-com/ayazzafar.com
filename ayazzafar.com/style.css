@@ -468,9 +468,9 @@ nav ul li a:hover::after{
 .contact-left p{
     margin-top: 30px;
     font-weight:600;
-    color: #fff;
+    color: #FFF;
     transition: 0.5s;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .contact-left p:hover{
