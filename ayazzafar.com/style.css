@@ -48,7 +48,7 @@ body{
     /* width */
     ::-webkit-scrollbar{
         width: 12px;
-        background-color: #262626;
+        background-color: #000;
       }
       
       /* Track */
