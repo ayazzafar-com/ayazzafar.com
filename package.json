@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@algolia/autocomplete-js": "^1.8.1",
+    "@algolia/autocomplete-theme-classic": "^1.8.1",
+    "@vercel/analytics": "^0.1.5",
+    "algoliasearch": "^4.14.3"
+  }
+}
